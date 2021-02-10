@@ -1,15 +1,13 @@
-// 1. Файл описания структуры
+п»ї// 1. Р¤Р°Р№Р» РѕРїРёСЃСѓ СЃС‚СЂСѓРєС‚СѓСЂРё
 #pragma once
 #include <string>
 using namespace std;
 
 #ifndef _S_STUD_H_
 #define _S_STUD_H_
+#endif // !_S_STUD_H_
 
 struct stud {
 	string name;
 	int oc;
 };
-
-#endif // !_S_STUD_H_
-

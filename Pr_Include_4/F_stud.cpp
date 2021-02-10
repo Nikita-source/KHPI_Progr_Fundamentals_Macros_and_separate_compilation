@@ -1,11 +1,11 @@
-#include "F_stud.h"
+п»ї#include "F_stud.h"
 #include "S_stud.h"
 #include <iostream>
 using namespace std;
 
 #define DEBUG
-#define PRINT_TYPE 1		// Печать с помощью COUT
-//#define PRINT_TYPE 2		// Печать с помощью PTINTF
+#define PRINT_TYPE 1	// Р”СЂСѓРє Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ COUT
+//#define PRINT_TYPE 2	// Р”СЂСѓРє Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ PTINTF
 
 int max_oc(stud spis[], int size)
 {
@@ -20,9 +20,11 @@ int max_oc(stud spis[], int size)
 	}
 
 #if PRINT_TYPE == 1
-	cout << "Print from max_oc with cout, max = " << max << endl;
+	cout << "Print from max_oc with cout, max = ";
+	cout << max << endl;
 #else
-	printf("Print from max_oc with printf, max = %d \n", max);
+	printf("Print from max_oc with printf, ");
+	printf("max = % d \n", max);
 #endif // PRINT_TYPE == 1
 
 	return max;

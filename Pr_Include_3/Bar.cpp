@@ -1,4 +1,4 @@
-#include "Bar.h"
+﻿#include "Bar.h"
 
 void Bar()
 {
